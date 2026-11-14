@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "n_chunks": 8,
+  "n_records": 324132,
+  "n_rows": 24000,
+  "n_cols": 240,
+  "n_pairs": 28680,
+  "G": 20,
+  "k_max": 7066,
+  "n_validated": 70,
+  "seconds": {
+    "io": 0.03616199945099652,
+    "aggregate": 0.06505375006236136,
+    "aggregate_cpu": 0.02889175061136484,
+    "fit": 0.6634390419349074,
+    "moments": 0.3075755829922855,
+    "pvals": 1.4289754999335855,
+    "bonferroni": 0.0030397919472306967,
+    "gate_aggregate_fit_pvals": 2.46504387492314,
+    "compute_no_io": 2.4288818754721433,
+    "total": 2.4680836668703705
+  },
+  "gate_pass": true,
+  "rss_bytes": 519389184
+}

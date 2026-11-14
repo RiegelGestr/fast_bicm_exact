@@ -1,0 +1,14 @@
+  chunk 1 records=40,418 io=0.03s
+  chunk 4 records=161,574 io=0.03s
+  chunk 8 records=324,132 io=0.04s
+agg  0.07s  io=0.04s  cpu=0.03s  chunks=8 records=324,132  N=24,000 C=240 pairs=28,680  G=20 k_max=7,066  rss=239.7 MB
+fit  0.66s  rss=284.7 MB
+moments 0.31s  rss=296.6 MB
+exact schoolbook pairs=28058 k_max=512
+exact fft chunks huge=0 rest=5 workers=10
+exact fft rest done
+pvals 1.43s  rss=519.4 MB
+GATE aggregate+fit+pvals 2.47s (0.04 min)  PASS < 10 min
+bonf 0.00s  edges=70
+wrote data/streamed_exact_gate.json
+wrote data/synthetic_k_hist.npz and data/synthetic_fit.npz
